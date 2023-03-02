@@ -1,11 +1,12 @@
 package org.marshalling;
 
-import com.fasterxml.jackson.annotation.JsonAnyGetter;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import java.io.*;
 import java.util.HashMap;
 import java.util.Map;
+
 
 public class Bot {
 
@@ -31,16 +32,19 @@ public class Bot {
         return name;
     }
 
-    @JsonAnyGetter
     public Map<String, String> getLog() {
         return log;
     }
 
-    public void serializeObj(Bot bot) throws JsonProcessingException {
+    public void serializeObj(Bot bot) throws IOException {
 
         ObjectMapper mapper = new ObjectMapper();
-        String result = mapper.writeValueAsString(bot);
-        System.out.println(result);
+        byte[] result = mapper.writeValueAsBytes(bot);
+
+        File file = new File("src/main/java/org/marshalling/output.json");
+
+        FileOutputStream fis = new FileOutputStream(file);
+        fis.write(result);
     }
 
     public static void main(String[] args) {
@@ -55,6 +59,9 @@ public class Bot {
             bot.serializeObj(bot);
         } catch (JsonProcessingException e) {
             e.printStackTrace();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
         }
+
     }
 }
