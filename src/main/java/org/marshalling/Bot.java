@@ -39,12 +39,8 @@ public class Bot {
     public void serializeObj(Bot bot) throws IOException {
 
         ObjectMapper mapper = new ObjectMapper();
-        byte[] result = mapper.writeValueAsBytes(bot);
 
-        File file = new File("src/main/java/org/marshalling/output.json");
-
-        FileOutputStream fis = new FileOutputStream(file);
-        fis.write(result);
+        mapper.writeValue(new File("src/main/java/org/marshalling/output.json"), bot);
     }
 
     public static void main(String[] args) {
@@ -62,6 +58,5 @@ public class Bot {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-
     }
 }

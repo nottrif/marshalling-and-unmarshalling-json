@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b9fba71-2eb5-49d7-8690-757f4be66f46" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/marshalling/output.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/marshalling/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/marshalling/Bot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677755144635</updated>
-      <workItem from="1677755146016" duration="3530000" />
+      <workItem from="1677755146016" duration="4012000" />
     </task>
     <servers />
   </component>
