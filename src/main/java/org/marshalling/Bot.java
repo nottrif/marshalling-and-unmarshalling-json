@@ -12,7 +12,6 @@ public class Bot {
 
     public Bot() {
     }
-
     private int id;
     private String name;
 
