@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b9fba71-2eb5-49d7-8690-757f4be66f46" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/unmarshalling/Bot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/unmarshalling/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/unmarshalling/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/unmarshalling/input.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/unmarshalling/tocollections/Bot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/marshalling/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/marshalling/Bot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/marshalling/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/marshalling/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/unmarshalling/tocollections/MyDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/unmarshalling/tocollections/MyDto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +52,82 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager" selected="Application.org.unmarshalling.tocollections.Task">
+    <configuration name="Result" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.unmarshalling.Result" />
+      <module name="Json.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.unmarshalling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Result2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.unmarshalling.Result2" />
+      <module name="Json.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.unmarshalling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.unmarshalling.Task" />
+      <module name="Json.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.unmarshalling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.unmarshalling.Task1" />
+      <module name="Json.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.unmarshalling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.unmarshalling.tocollections.Task" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.unmarshalling.tocollections.Task" />
+      <module name="Json.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.unmarshalling.tocollections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.org.unmarshalling.tocollections.Task" />
+        <item itemvalue="Application.Result2" />
+        <item itemvalue="Application.Result" />
+        <item itemvalue="Application.Task1" />
+        <item itemvalue="Application.Task" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,7 +137,8 @@
       <option name="presentableId" value="Default" />
       <updated>1677755144635</updated>
       <workItem from="1677755146016" duration="5051000" />
-      <workItem from="1678080659304" duration="4156000" />
+      <workItem from="1678080659304" duration="7268000" />
+      <workItem from="1678098426691" duration="3486000" />
     </task>
     <servers />
   </component>

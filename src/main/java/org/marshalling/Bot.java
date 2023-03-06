@@ -1,5 +1,6 @@
 package org.marshalling;
 
+import com.fasterxml.jackson.annotation.JsonGetter;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -27,6 +28,7 @@ public class Bot {
         return id;
     }
 
+    @JsonGetter("name")
     public String getName() {
         return name;
     }

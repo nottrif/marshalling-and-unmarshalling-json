@@ -1,9 +1,9 @@
 {
   "id": 1,
-  "name": "Bot1",
   "log": {
     "1": "exec1",
     "2": "exec2",
     "3": "exec3"
-  }
+  },
+  "name": "Bot1"
 }
